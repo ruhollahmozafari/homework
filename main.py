@@ -21,6 +21,5 @@ def hamming_distance(str1,str2):
        return indexer_list
 
        
-f1=hamming_distance('this is a string', 'thix ix a xtrong')
+f1=hamming_distance('this is a string', 'thix ix a xtring')
 print(' the number of differences are ', len(f1))
-# and this is the end of fist assignmnet
